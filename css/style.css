@@ -1,0 +1,22 @@
+/*這是header*/
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskannada.css);
+* {
+    font-size: 1em;
+    letter-spacing: 2px;
+}
+
+.header {
+    background-color: yellow;
+    font-size: 1.2em;
+}
+
+h1 {
+    color: coral;
+    font-size: 40px;
+}
+
+p {
+    font-size: 1em;
+    color: "#000080";
+}

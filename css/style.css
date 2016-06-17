@@ -10,7 +10,11 @@
     background-color: yellow;
     font-size: 1.2em;
 }
-
+.featured-image {
+    width: 100%;
+    height:200px;
+    background-image: url(../images/001.jpg);
+}
 h1 {
     color: coral;
     font-size: 40px;
@@ -19,4 +23,9 @@ h1 {
 p {
     font-size: 1em;
     color: "#000080";
+}
+div ul>li {
+    list-style-type: none;
+    list-style-position: inside;
+    display: inline-block;
 }

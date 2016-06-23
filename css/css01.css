@@ -1,0 +1,48 @@
+        * {
+            font-size: 1em;
+            letter-spacing: 2px;
+            background-color: azure;
+        }
+        
+        #content {
+            width: 75%;
+            border: 10px solid #ccff00;
+            border-radius: 15px;
+            background-image: url(../images/img04.gif);
+            /*    background-color: transparent;*/
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .top {
+            border-radius: 50px;
+            border: 3px solid #fff;
+        }
+        
+        p {
+            background-color: antiquewhite;
+            padding: 50px 15px 15px 150px;
+        }
+        
+        .a1 {
+            color: fuchsia;
+        }
+        
+        .a2 {
+            color: brown;
+        }
+        
+        .a3 {
+            color: blueviolet;
+        }
+        
+        .a4 {
+            color: deeppink;
+        }
+        
+        .footer {
+            font-size: 0.8em;
+            background-color: cornsilk;
+            height: 50px;
+            padding: 20px 50px;
+        }

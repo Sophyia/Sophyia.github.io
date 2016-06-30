@@ -1,6 +1,13 @@
+* {
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
 .jumbotron {
     background-color: gray;
     background-image: url(../images/photo-2.JPG);
+    background-size: cover;
     color: white;
     text-align: center;
     padding: 250px;

@@ -1,0 +1,34 @@
+/*一些基本設定*/
+
+* {
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    font-family: 'Noto Sans TC', sans-serif, serif;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 2.0em;
+    color: red;
+    text-align: center;
+}
+
+p {
+    font-size: 0.8em;
+    color: #990000;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #669933;
+    background: #FF9999;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+div {
+    width: 80%;
+    padding: 10px;
+    margin: 20px auto;
+    background-color: #BBDEFB;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/hello.css">
+    <title>Hello Document</title>
+</head>
+
+<body>
+    <h1>emmet使用方法</h1>
+    <div>
+        <h2>Child: >
+    		<p>operator to nest elements inside each other </p>
+    		<blockquote>例如 div>ul>li 會產生巢狀指令</blockquote>
+    	    		<img src="images/child.png" alt="div>ul>li">
+    		
+    	</h2>
+    </div>
+    <div>
+        <h2>Sibling: +
+    		<p>operator to place elements near each other, on the same level </p>
+    		<blockquote>例如 div+p+bq 會產生同級的元素</blockquote>
+    		<p></p>
+    		<img src="images/Sibling.png" alt="div+p+bq">
+
+    	</h2>
+    </div>
+    <div>
+        <h2>Climb-up: ^
+    		<p>operator you’re descending down the generated tree and positions of all sibling elements will be resolved against the most deepest element </p>
+    		<blockquote>例如 div+div>p>span+em^bq 會將巢狀指令bq往上提升一個層級到p同一層</blockquote>
+    		<p></p>
+
+    		<img src="images/Climb-up.png" alt="div+div>p>span+em^bq">
+    	</h2>
+    </div>
+    <div>
+        <h2>Multiplication: *
+    		<p>operator you can define how many times element should be outputted </p>
+    		<blockquote>例如 ul>li*5 會產生重返指定5個數的序列元素</blockquote>
+    		<p></p>
+    		<img src="images/Multiplication.png" alt="ul>li*5">
+    	</h2>
+    </div>
+    <div>
+        <h2>Grouping: ()
+    		<p>Parenthesises are used by Emmets’ power users for grouping subtrees in complex abbreviations </p>
+    		<blockquote>例如 div>(header>ul>li*2>a[href=pic$.png])+footer>p 會產生小括弧內群組元素，＄符號會產生連續數字</blockquote>
+    		<p></p>
+
+    		<img src="images/Grouping.png" alt="idiv>(header>ul>li*2>a[href=pic$.png])+footer>p">
+    	</h2>
+    </div>
+</body>
+
+</html>

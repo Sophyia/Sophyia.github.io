@@ -1,0 +1,46 @@
+.box1 {
+    margin: auto;
+    width: 400px;
+    height: 810px;
+    background-color: #666666;
+    border-radius: 15px;
+}
+
+.box2 {
+    margin: 50px 20px 100px 20px;
+    width: auto;
+    height: 520px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 70px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.box1inside1 {
+    padding: 5px 190px 2px 200px;
+}
+
+#cir01 {
+    border-radius: 50%;
+    border-color: red;
+}
+
+.box1inside2 {
+    padding: 2px;
+    border-radius: 50%;
+}
+
+.box1inside22 {
+    display: inline;
+    border: 20px solid grey;
+    /*    background-color: gray;*/
+    padding: 5px 190px 2px 200px;
+}
+
+.cir01 {
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 15px;
+}

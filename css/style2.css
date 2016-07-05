@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+ header, nav, section, article, footer {
+         display: block;
+       }
+       header, nav, section, article, footer {
+         color: yellow;
+       }
+       header, footer {
+         text-align: center;
+         width: 100%;
+       }
+       header {
+         background-color: #C6F;
+         font-size: 2em;
+         font-weight: bold;
+		 margin:0 auto;
+       }
+       nav {
+         position: fixed;
+         top: 40px;
+         right: 25px;
+         background-color: #C90;
+         width: 100px;
+       }
+       section {
+         width: 86%;
+         background-color: gray;
+         padding: 20px;
+         margin: 20px;
+       }
+       footer {
+         background-color: green;
+         font-size: 10px;
+       }

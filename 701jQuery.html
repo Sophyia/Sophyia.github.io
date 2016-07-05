@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <title>77001</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+
+</head>
+
+<body>
+
+    <div class="showFriend">
+        <h1>毛小孩</h1>
+        <img src="images/snoopy3.png" alt="">
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
+    <script>
+        $(document).ready(
+            function() {
+                $("img").hide();
+                $(".showFriend").click(
+                    function() {
+                        $("img").slide.toggle(1000);
+                    }
+                );
+            }
+        );
+
+    </script>
+</body>
+
+</html>
